@@ -1,0 +1,6 @@
+/*Asterisk selector to override browser styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
