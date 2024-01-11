@@ -1,0 +1,33 @@
+/*Asterisk selector to override browser styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color:#36382E;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*Header*/
+ header {
+    background-color: #36382E;
+}
+
+/*Main content*/
+main {
+    background-color: white;
+    flex: 1 0 auto;
+    margin-top: 70px;
+}
+
+/*Footer*/
+footer {
+    background-color: #DADAD9;
+}
