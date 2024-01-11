@@ -1,3 +1,5 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Montserrat:wght@400;600&display=swap');
 /*Asterisk selector to override browser styles*/
 * {
     box-sizing: border-box;
