@@ -104,6 +104,21 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+/*Embedded Google map*/
+
+.google-map {
+    padding-bottom: 70%;
+    position: relative;
+    margin:3%;
+}
+    
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
 .contact p {
     font-size: 70%;
@@ -173,7 +188,7 @@ main {
     main {
         margin-top: 108px;
     }
-    
+
     /*Footer*/
     #footer-info {
         text-align: center;
@@ -193,6 +208,11 @@ main {
     .social-icons i {
         font-size: 130%;
         padding-bottom: 1rem;
+    }
+    /*Embedded Google map*/
+    .google-map {
+        padding-bottom: 45%;
+        margin:0;
     }
 }
     
@@ -222,5 +242,11 @@ main {
     .social-icons i {
         font-size: 200%;
         padding-bottom: 1rem;
+    }
+
+    /*Embedded Google map*/
+    .google-map {
+        padding-bottom: 25%;
+        margin: 0;
     }
 }
