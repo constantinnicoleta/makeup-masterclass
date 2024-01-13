@@ -95,44 +95,44 @@ main {
  
 /*Footer*/
     
-    #footer-info {
-     color: #DADAD9;
-     background-color: #36382E;
-     padding: 25px 0;
-     top: 20%;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
-    }
+#footer-info {
+    color: #DADAD9;
+    background-color: #36382E;
+    padding: 25px 0;
+    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-    .contact p {
-      font-size: 70%;
-      line-height: 2;
-      text-align: center;
-    }
+.contact p {
+    font-size: 70%;
+    line-height: 2;
+    text-align: center;
+}
 
-    .location p {
-        font-size: 70%;
-      line-height: 2;
-      text-align: center;
-    }
+.location p {
+    font-size: 70%;
+    line-height: 2;
+    text-align: center;
+}
 
-    .social-icons i {
-        color: #DADAD9;
-        letter-spacing: 1rem;
-        font-size: 120%;
-        margin-top: 1rem;
-    }
+.social-icons i {
+    color: #DADAD9;
+    letter-spacing: 1rem;
+    font-size: 120%;
+    margin-top: 1rem;
+}
     
-    .contact h3 {
-        font-size: 70%;
-        text-align: center;
-    }
+.contact h3 {
+    font-size: 70%;
+    text-align: center;
+}
     
-    .location h3 {
-        font-size: 70%;
-        text-align: center;
-    }
+.location h3 {
+    font-size: 70%;
+    text-align: center;
+}
 
 
 
@@ -173,6 +173,27 @@ main {
     main {
         margin-top: 108px;
     }
+    
+    /*Footer*/
+    #footer-info {
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .contact {
+        font-size: 150%;
+    }
+    
+    .location {
+        font-size: 150%;
+    }
+
+    .social-icons i {
+        font-size: 130%;
+        padding-bottom: 1rem;
+    }
 }
     
 
@@ -180,5 +201,26 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #DADAD9;
+    }
+    /*Footer*/
+    #footer-info {
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    
+    .contact {
+        font-size: 170%;
+    }
+    
+    .location {
+        font-size: 170%;
+    }
+    
+    .social-icons i {
+        font-size: 200%;
+        padding-bottom: 1rem;
     }
 }
