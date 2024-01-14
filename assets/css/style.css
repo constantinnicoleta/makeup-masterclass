@@ -112,7 +112,51 @@ main {
     padding-top: 220px;
     padding-left: 10px;
 }
- 
+
+.introduction {
+    padding: 20px 20px ;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 10px;
+}
+.trainer h3 {
+     text-align: center;
+     font-weight: normal;
+     margin-top: 5%;
+}
+.trainer p {
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: 200;
+}
+
+.expertise h3 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.expertise i {
+    color:#36382E;
+    font-size: 140%;
+}
+.expertise ul {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 100;
+}
+
+.expertise li {
+    margin-bottom: 10px;
+}
+.trainer img {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+}
 /*Footer*/
     
 #footer-info {
@@ -170,7 +214,6 @@ main {
 }
 
 
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -217,7 +260,42 @@ main {
         width: 42%;
         padding-top: 140px;
         padding-left: 20px;
-       }
+    }
+
+    .introduction h2 {
+        padding: 10px 80px;
+    }
+
+    .introduction p {
+        font-size: 110%;
+        font-style: italic;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .trainer img {
+        width: 100%;
+        height: 600px;
+        margin-top: 2%;
+        padding: 20px 20px;
+    }
+    .trainer h3 {
+        margin-top:0;
+        font-size: 200%;
+    }
+    .trainer p {
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align:center;
+        font-size: 120%;
+    }
+    
+    .expertise h3 {
+        font-size: 140%;
+    }
+    
+    .expertise ul li {
+        font-size: 180%;
+    }
 
     /*Footer*/
     #footer-info {
@@ -252,6 +330,54 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #DADAD9;
     }
+    /*Hero section*/
+    #hero-section {
+        height:500px;
+    }
+
+    .hero-text {
+     width: 40%;
+     padding-top: 240px;
+     padding-left: 20px;
+    }
+
+    /*Embedded Google map*/
+    .google-map {
+        padding-bottom: 25%;
+        margin: 0;
+    }
+
+    .trainer h3 {
+        font-size: 50px;
+        padding-top: 5%;
+        padding-right: 10%;
+    }
+    
+    .trainer p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        padding-right: 20%;
+    }
+
+    .trainer img {
+        width: 80%;
+        height:500px;
+        padding-left: 10px;
+    }
+    #trainer-container {
+        columns: 2;
+        column-gap: 50px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .expertise {
+        text-align: center;
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
     /*Footer*/
     #footer-info {
         text-align: center;
@@ -273,22 +399,7 @@ main {
         font-size: 200%;
         padding-bottom: 1rem;
     }
+
     
-    /*Hero section*/
-    #hero-section {
-        height:500px;
-    }
-
-    .hero-text {
-     width: 40%;
-     padding-top: 240px;
-     padding-left: 20px;
-    }
-
-    /*Embedded Google map*/
-    .google-map {
-        padding-bottom: 25%;
-        margin: 0;
-    }
     
 }
