@@ -32,7 +32,39 @@
             </nav>
     </header>
     <!--Main content-->
-    <main>Main</main>
+    <main>
+        <section id="register">
+            <form id="form-register" method="get" action="">
+            <h2> Register today to attend ! </h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-btns">
+                <div>
+                    <label for="Natural">Natural Makeup Masterclass</label>
+                    <input type="radio" name="masterclass-type" id="natural" value="natural" required checked>
+                </div>
+                <div>
+                    <label for="fashion">Runway & Fashion Masterclass</label>
+                    <input type="radio" name="masterclass-type" id="fashion" value="fashion" required checked>
+                </div>
+                <div>
+                    <label for="bridal">Bridal Masterclass</label>
+                    <input type="radio" name="masterclass-type" id="bridal" value="bridal" required checked>
+                </div>
+            </div>
+            <button type="submit" class="register-btn">Register</button>    
+
+
+            </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <section>
