@@ -61,6 +61,9 @@ h1 {
 .active {
     border-bottom: 1px solid #DADAD9;
 }
+div a {
+    color: #36382E;
+}
 
 /*Navbar styles*/
 nav {
