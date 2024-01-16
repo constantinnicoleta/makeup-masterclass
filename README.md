@@ -6,9 +6,9 @@
 
 Our mission is to break down financial barriers and help individuals to explore their creativity and develop a unique style through makeup artistry. We believe that everyone with a passion, should have access to high-quality and free makeup education.
 
-Live link can be found here -
+Live link can be found here - [Live link](https://constantinnicoleta.github.io/makeup-masterclass/)
 
-[Responsive Mockup](documentation/am_i_responsive.jpg)
+![Responsive Mockup](documentation/am_i_responsive.jpg)
 
 ## Planning overview
 
@@ -39,7 +39,7 @@ Our masterclasses target a diverse demographic, including individuals of all age
 #### Returning user
 - As a returning user, I aim to be able to click on the social links to connect on the platform of choice.
 
-- As a returning user, I aim to be able to register for other masterclasses opportunities via the Register Form if I wish to take part in the future.
+- As a returning user, I aim to be able to register for other masterclass opportunities via the Register Form if I wish to take part in the future.
 
 - As a returning user, I aim to have the same seamless experience browsing the website.
 
@@ -50,7 +50,7 @@ Our masterclasses target a diverse demographic, including individuals of all age
 I have decided on these 3 colours in order to maintain consistency in color usage and to ensure there is enough contrast between text and background for good readability.
 The color pallete has been created on [Coolors](https://coolors.co/) 
 
-[Color Pallete](documentation/color_palette.jpg)
+![Color Pallete](documentation/color_palette.jpg)
 
 ### Fonts
 The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from [Google Fonts](https://fonts.google.com/) and I believe it blended perfectly with the vision for the website and different type of font-weights applied.
@@ -61,11 +61,17 @@ The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from
 
   - Featured on all three pages : Masterclass, Gallery & Register, the full responsive navigation bar is identical in each page to allow the user easy navigation from page to page.
   - The navigation bar has a fixed position, ensuring it stays at the top of the page along with a burger icon with a dropdown menu; this has been incorporated on mobile screens, offering a more mobile-friendly approach to click the menu options.
+
+  1. 768px and up screen sizes
+     ![Navigation Bar](documentation/navbar.jpg)
+
+  2.  768px and under screen size
+   ![Navigation Bar](documentation/navbar_mobile.jpg)
   
   #### Call-to-Action
   - A hyperlink added to JOIN US, a call-to-action, inviting users to register.
+  ![Call to action](documentation/call_to_action.jpg)
 
-![Nav Bar](picture)
 
 ## Home Page
 
@@ -73,25 +79,26 @@ The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from
 
   - This section introduces the user to what the website is about, who do we target, location and that there is no cost to it.
 
-![Landing Page](picture)
+![Landing Page](documentation/landing_page.jpg)
 
 ### Meet the Trainer section
 
   - This section will allow the user to meet and know more about the make-up trainer.
   - This user will see the value of registering to take part in this masterclasss.
 
-![Club Ethos](picture)
+![Meet the trainer](documentation/meet_the_trainer.jpg)
 
 ### Masterclasses section
 
   - This section will allow the user to see exactly what range of masterclasses they can take part in.
   - This section will allow the user to see suitability for each one of them based on the masterclass type and learning outcomes.
 
-![Masterclasses Times](picture)
+![Masterclasses](documentation/masterclasses.jpg)
 
 ### Dates & Location section
 
 - This section allows the user to view the exact times and date with location for their specific interest.
+![Dates&Times](documentation/times_dates.jpg)
 
 
  ### Footer
@@ -99,21 +106,21 @@ The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from
   - The footer section includes links to Instagram, Facebook & Twitter (X). The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](picture)
+![Footer](documentation/footer.jpg)
 
 ## Gallery Page
 
   - The gallery will provide the user an insight of the trainer's experience.
   - This section is valuable to the user as they will be able to easily feel safe in the trainer's hand. 
 
-![Gallery](picture)
+![Gallery](documentation/gallery.jpg)
 
 ## Register Page
 
   - This page will allow the user to take part and register for the desired masterclass.
   - The user will be asked to submit their full name and email address as well as selecting one of the 3 masterclasses available.
 
-![Register](picture)
+![Register](documentation/register.jpg)
 
 ### Features Left to Implement
 
@@ -148,14 +155,18 @@ I have tested my project in various ways such as:
 ### Validator Testing 
 
 - HTML
-  - No errors were found when passing through the official [W3C validator](include link)
+  - No errors were found when passing through the official [W3C validator](https://validator.w3.org/)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](include link)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 
 ### Lighthouse Scores
 
-The website received a xxxxx 
+The website received the below stats:
+- masterclass.html
+![HomePage](documentation/masterclass.jpg)
+- gallery.html
+![Gallery](documentation/_gallery.jpg)
 
 ### Unfixed Bugs
 
@@ -177,7 +188,7 @@ The project was deployed using GitHub Pages. I have followed these below steps f
 
 6. Page will be automatically refresh and after a few minutes a green dot will appear to indicate the successful deployment. 
 
-The live link can be found here - 
+The live link can be found [here](https://constantinnicoleta.github.io/makeup-masterclass/) .
 
 
 ## Credits 
