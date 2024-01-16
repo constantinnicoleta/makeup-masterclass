@@ -60,6 +60,7 @@ h1 {
 .active {
     border-bottom: 1px solid #DADAD9;
 }
+
 div a {
     color: #36382E;
 }
@@ -245,6 +246,28 @@ table {
     margin: 20px;
 }
 
+.detail {
+    padding: 15px 15px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.detail h3 {
+    text-align: center;
+    color: #36382E;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.detail p {
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
 /*Gallery*/
 #gallery img {
     width: 100%;
@@ -258,7 +281,9 @@ table {
 #register {
     background-image: url(../images/Form-image.webp);
     background-size: cover;
-    background-position: 75%;
+    background-position: center center;
+    height: 780px;
+    padding-top: 70px;
 }
 
 #form-register {
@@ -452,7 +477,13 @@ table {
 
     /*Table section*/
     #table-section {
-        width: 100%;
+        width: 96%;
+        margin-top: 50px;
+    }
+ 
+    .center {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .table-content th {
@@ -460,6 +491,14 @@ table {
         padding: 10px;
     }
 
+    .detail {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .detail p {
+        font-size: 120%;
+    }
     /*Gallery*/
     #gallery {
         display: flex;
@@ -515,11 +554,10 @@ table {
 
     /*Embedded Google map*/
     .google-map {
-        float: right;
-        width: 40%;
-        height: 300px;
-        padding: 30px 20px;
-        margin-bottom: 2px;
+        width: 100%;
+        height: 200px;
+        padding-bottom: 10px;
+        padding-top: 60px;
 
     }
 
@@ -570,11 +608,10 @@ table {
 
     /*Embedded Google map*/
     .google-map {
-        float: right;
-        width: 30%;
-        height: 300px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
+        width: 100%;
+        height: 180px;
+        padding-bottom: 10px;
+        margin-bottom: 2px;
     }
 
     .google-map iframe {
@@ -623,17 +660,38 @@ table {
 
     /*Table section*/
     #table-section {
-        width: 100%;
-        margin-left: 20px;
-        padding-bottom: 5px;
+        width: 99%;
     }
 
-    .table-content {
-        width: 32%;
-        padding-left: 15px;
-        padding-top: 30px;
-        display: table;
-        float: left;
+    table {
+        font-size: 100%;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .detail {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .detail h3 {
+        text-align: center;
+        font-size: 170%;
+        margin-top: 3rem;
+    }
+
+    .detail p {
+        align-content: center;
+        margin-top: 0.5rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 300;
+        font-size: 110%;
     }
 
     /*Gallery*/
