@@ -1,12 +1,56 @@
-!# Xenia Artistry
+# Xenia Artistry
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+ Xenia Artistry website is a makeup masterclass platform created by Xenia, a seasoned professional makeup artist with 12 years of experience in the industry. Xenia has worked with high-profile clients such as celebrities & models and this has led her to embark on a journey of sharing her passion and extensive knowledge with makeup enthusiasts who consider improving their makeup application skills without barriers through 3 different types of free masterclasses. 
+
+### Our mission
+
+Our mission is to break down financial barriers and help individuals to explore their creativity and develop a unique style through makeup artistry. We believe that everyone with a passion, should have access to high-quality and free makeup education.
+
+Live link can be found here -
 
 ![Responsive Mockup](picture)
 
-## Features 
+## Planning overview
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Site Goals 
+- Able to explore our Homepage and its detailed information about our trainer background, masterclasses options and their specific dates and location.
+
+- Provide extensive information about the masterclasses range with their suitability and learning outcomes.
+
+- Browse through the trainer’s portfolio in the Gallery page to gain insight in her extensive knowledge.
+
+- Register to take part in the masterclass of choice via the Form in Register Page.
+
+### Target audience
+Our masterclasses target a diverse demographic, including individuals of all ages, genders and skill levels.
+
+- Beginners looking to build foundational skills and techniques 
+
+- Aspiring makeup artists seeking to enhance their existing knowledge
+
+- Individuals interested in exploring avant-garde and artistic makeup styles.
+
+### User-stories
+#### First-time user
+- As a first-time user, I want straightforward navigation and a clear understanding of the website’s main purpose along with the learning benefits and expectations of the masterclasses.
+
+- As a first-time user, I aim to have a positive first impression and make it easy to explore the available masterclasses options without the page being overloaded with information.
+
+#### Returning user
+- As a returning user, I aim to be able to click on the social links to connect on the platform of choice.
+
+- As a returning user, I aim to be able to register for other masterclasses opportunities via the Register Form if I wish to take part in the future.
+
+- As a returning user, I aim to have the same seamless experience browsing the website.
+
+## Design 
+
+### Color Scheme
+
+I have decided on these 3 colours in order to maintain consistency in color usage and to ensure there is enough contrast between text and background for good readability.
+The color pallete has been created on [Coolors](https://coolors.co/) 
+
+add here 
 
 ### Existing Features
 
@@ -58,78 +102,85 @@ In this section, you should go over the different parts of your project, and des
 
 ![Register](picture)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Another feature idea
+- Create a message box for any inquiries people might have.
+- Add a new page with make-up tutorials.
 
 ## Testing 
+I have tested my project in various ways such as:
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Manual testing
+ Manually testing each element's appearance and responsiveness using the chrome dev tools:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+| Action | Expected behaviour | Pass/Fail |
+--- | --- | --- |
+| click JOIN US  | take us to the Register page | Pass
+| click Google Map | link opens in separate page & take us to the Google Map location | Pass 
+| click each social icon in the Footer | link opens in separate page & take us to that specific platform | Pass
+| click Gallery page | take us to the Gallery page | Pass
+|click Register page | take us to the Register page | Pass
+| click Menu icon | Dropdown open | Pass
+| fill out the form | Successfully submit | Pass
+| fill out form, first-name & email only | Required to fill out surname section | Pass
+|fill out form, full name & email missing '@' | Required to add a valid email address using '@' | Pass
+| register via the form | take us to a page confirming the registration | Pass
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Browser Testing
+- The website was tested in Google Chrome, Safari &  Microsoft Edge and no issues displayed.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+### Device Testing
+- The website was viewed on multiple devices such as, MacBook Pro, Iphone 14 Pro Max, 15 Pro Max, 11 Pro Max and Huawei tablet, to ensure responsiveness on various screen sizes. The website performed as expected.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](include link)
+  - No errors were found when passing through the official [W3C validator](include link)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](include link)
 
+### Lighthouse Scores
+
+The website received a xxxxx 
+
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No bugs found.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The project was deployed using GitHub Pages. I have followed these below steps for deployment:
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+1. Go to the repository on GitHub.com
 
-The live link can be found here - paste link
+2. Select 'Settings' near the top of the page.
+
+3. Choose 'Pages' from the menu bar on the left.
+
+4. Under 'Source', select the 'Branch' dropdown and choose the main branch.
+
+5. Click 'Save'.
+
+6. Page will be automatically refresh and after a few minutes a green dot will appear to indicate the successful deployment. 
+
+The live link can be found here - 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the  was taken from 
-- Instructions on how to implement form validation on the Sign Up page was taken from [link)
-- The icons in the xx were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the website was created by me.
+- The icons in the Footer and Navigation sections were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and register page are from 
-- The images used for the gallery page were taken from 
+- The photos used throughout the entire website pages are from 
+[Pexels](https://www.pexels.com/)
+- Google Map from [Google](https://www.google.com/maps/place/Ingrave+St,+London+SW11+2SA/@51.4673088,-0.1746872,17z/data=!4m6!3m5!1s0x4876059b8a61666b:0xa7e02274de4d2894!8m2!3d51.4675817!4d-0.1717844!16s%2Fg%2F1tglgt3t?entry=ttu)
 
-## Other General Project Advice
+### Resources used
+- Inspiration for the drop-down menu with the Burger icon from [Code Institute](https://codeinstitute.net/) Love Running project.
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+### Mentions
+ - Dick Vlaanderen - my mentor has been really helpful and offered constructive feedback throughout this project.
