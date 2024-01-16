@@ -52,53 +52,66 @@ The color pallete has been created on [Coolors](https://coolors.co/)
 
 add here 
 
-### Existing Features
+### Fonts
+The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from [Google Fonts](https://fonts.google.com/) and I believe it blended perfectly with the vision for the website and different type of font-weights applied.
 
-- __Navigation Bar__
+## Existing Features
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the x/x/x page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+   ### Navigation Bar
+
+  - Featured on all three pages : Masterclass, Gallery & Register, the full responsive navigation bar is identical in each page to allow the user easy navigation from page to page.
+  - The navigation bar has a fixed position, ensuring it stays at the top of the page along with a burger icon with a dropdown menu; this has been incorporated on mobile screens, offering a more mobile-friendly approach to click the menu options.
+  
+  #### Call-to-Action
+  - A hyperlink added to JOIN US, a call-to-action, inviting users to register.
 
 ![Nav Bar](picture)
 
-- __The landing page image__
+## Home Page
 
-  - The landing includes 
-  - This section introduces the user to 
+  - The landing includes a hero picture with text overlay which intends to catch people's attention.
+
+  - This section introduces the user to what the website is about, who do we target, location and that there is no cost to it.
 
 ![Landing Page](picture)
 
-- __Club Ethos Section__
+### Meet the Trainer section
 
-  - The club ethos section will allow the user to see the benefits of 
-  - This user will see the value of signing up for 
+  - This section will allow the user to meet and know more about the make-up trainer.
+  - This user will see the value of registering to take part in this masterclasss.
 
 ![Club Ethos](picture)
 
-- __Masterclasses Times section__
+### Masterclasses section
 
-  - This section will allow the user to see exactly when 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see exactly what range of masterclasses they can take part in.
+  - This section will allow the user to see suitability for each one of them based on the masterclass type and learning outcomes.
 
 ![Masterclasses Times](picture)
 
-- __The Footer__ 
+### Dates & Location section
 
-  - The footer section includes links to the relevant social media sites for Xenia Artistry. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- This section allows the user to view the exact times and date with location for their specific interest.
+
+
+ ### Footer
+
+  - The footer section includes links to Instagram, Facebook & Twitter (X). The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](picture)
 
-- __Gallery__
+## Gallery Page
 
-  - The gallery will provide the user with supporting images to see what masterclasses are about 
-  - This section is valuable to the user as they will be able to easily identify the types of masterclasses the organisation puts together. 
+  - The gallery will provide the user an insight of the trainer's experience.
+  - This section is valuable to the user as they will be able to easily feel safe in the trainer's hand. 
 
 ![Gallery](picture)
 
-- __The Register Page__
+## Register Page
 
-  - This page will allow the user to get register for. The user will be able specify if they would like to take part in. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to take part and register for the desired masterclass.
+  - The user will be asked to submit their full name and email address as well as selecting one of the 3 masterclasses available.
 
 ![Register](picture)
 
@@ -139,6 +152,7 @@ I have tested my project in various ways such as:
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](include link)
 
+
 ### Lighthouse Scores
 
 The website received a xxxxx 
@@ -168,19 +182,21 @@ The live link can be found here -
 
 ## Credits 
 
-### Content 
+### Content & Technologies 
 
 - The text for the website was created by me.
+- The design for the Favicon icon was created by me in [Canva](https://www.canva.com/) and later generated in [Favicon](https://favicon.io/favicon-converter/)
 - The icons in the Footer and Navigation sections were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
 - The photos used throughout the entire website pages are from 
 [Pexels](https://www.pexels.com/)
-- Google Map from [Google](https://www.google.com/maps/place/Ingrave+St,+London+SW11+2SA/@51.4673088,-0.1746872,17z/data=!4m6!3m5!1s0x4876059b8a61666b:0xa7e02274de4d2894!8m2!3d51.4675817!4d-0.1717844!16s%2Fg%2F1tglgt3t?entry=ttu)
+- Google Map section was taken from [Google](https://www.google.com/maps/place/Ingrave+St,+London+SW11+2SA/@51.4673088,-0.1746872,17z/data=!4m6!3m5!1s0x4876059b8a61666b:0xa7e02274de4d2894!8m2!3d51.4675817!4d-0.1717844!16s%2Fg%2F1tglgt3t?entry=ttu)
+- I've used a File compression tool in order to reduce the size of my pictures - [Small Pdf](https://smallpdf.com/) 
+- I've used this converter to convert my jpg images to webP - [WebP Converter](https://webpconverter.com/)
+
 
 ### Resources used
 - Inspiration for the drop-down menu with the Burger icon from [Code Institute](https://codeinstitute.net/) Love Running project.
+- README structure - Inspired by CI read-me template
 
 ### Mentions
  - Dick Vlaanderen - my mentor has been really helpful and offered constructive feedback throughout this project.
