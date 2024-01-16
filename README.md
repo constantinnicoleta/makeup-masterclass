@@ -192,11 +192,13 @@ The live link can be found here -
 - Google Map section was taken from [Google](https://www.google.com/maps/place/Ingrave+St,+London+SW11+2SA/@51.4673088,-0.1746872,17z/data=!4m6!3m5!1s0x4876059b8a61666b:0xa7e02274de4d2894!8m2!3d51.4675817!4d-0.1717844!16s%2Fg%2F1tglgt3t?entry=ttu)
 - I've used a File compression tool in order to reduce the size of my pictures - [Small Pdf](https://smallpdf.com/) 
 - I've used this converter to convert my jpg images to webP - [WebP Converter](https://webpconverter.com/)
+- I have checked if my website is responsive on [Am I Responsive](https://ui.dev/amiresponsive)
 
 
 ### Resources used
 - Inspiration for the drop-down menu with the Burger icon from [Code Institute](https://codeinstitute.net/) Love Running project.
 - README structure - Inspired by CI read-me template
+ - [W3schools](https://www.w3schools.com/) - inspiration purposes
 
 ### Mentions
  - Dick Vlaanderen - my mentor has been really helpful and offered constructive feedback throughout this project.
