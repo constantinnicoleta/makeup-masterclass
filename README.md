@@ -8,7 +8,7 @@ Our mission is to break down financial barriers and help individuals to explore 
 
 Live link can be found here -
 
-![Responsive Mockup](picture)
+[Responsive Mockup](documentation/am_i_responsive.jpg)
 
 ## Planning overview
 
@@ -50,7 +50,7 @@ Our masterclasses target a diverse demographic, including individuals of all age
 I have decided on these 3 colours in order to maintain consistency in color usage and to ensure there is enough contrast between text and background for good readability.
 The color pallete has been created on [Coolors](https://coolors.co/) 
 
-add here 
+[Color Pallete](documentation/color_palette.jpg)
 
 ### Fonts
 The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from [Google Fonts](https://fonts.google.com/) and I believe it blended perfectly with the vision for the website and different type of font-weights applied.
