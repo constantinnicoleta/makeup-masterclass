@@ -63,9 +63,10 @@ The fonts selection was 'Montserrat' and 'Fira Sans' , I have imported them from
   - The navigation bar has a fixed position, ensuring it stays at the top of the page along with a burger icon with a dropdown menu; this has been incorporated on mobile screens, offering a more mobile-friendly approach to click the menu options.
 
   1. 768px and up screen sizes
-     ![Navigation Bar](documentation/navbar.jpg)
+  ![Navigation Bar](documentation/navbar.jpg) 
 
-  2.  768px and under screen size
+
+  2. 768px and under screen size
    ![Navigation Bar](documentation/navbar_mobile.jpg)
   
   #### Call-to-Action
