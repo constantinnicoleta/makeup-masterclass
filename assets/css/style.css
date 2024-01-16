@@ -44,7 +44,9 @@ h1 {
     letter-spacing: 3px;
     box-shadow: 2px 2px 5px;
 }
-
+.hidden-heading {
+    display: none;
+}
 #menu {
     font-size: 100%;
     letter-spacing: 2px;
@@ -359,6 +361,7 @@ table {
 }
 
 .contact p {
+    color: #DADAD9;
     font-size: 70%;
     line-height: 2;
     text-align: center;
@@ -380,10 +383,6 @@ table {
 .contact h3 {
     font-size: 70%;
     text-align: center;
-}
-
-.contact p {
-    color:#DADAD9;
 }
 
 .location h3 {
